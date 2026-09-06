@@ -17,5 +17,5 @@ if [ $? -eq 0 ]; then
     echo "MySQL is already installed.. Skipping.."
 else 
     echo "Installing MySQL"
-    dnf install mysqld -y
+    dnf install mysql -y
 fi
