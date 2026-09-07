@@ -23,7 +23,7 @@ VALIDATE(){
     fi
 }
 
-for package in $@
+for package in "$@"
 do 
     echo "Installing $package"
 done
